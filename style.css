@@ -1,0 +1,16 @@
+img{
+    width: 100%;
+}
+
+nav .nav-item .nav-link.dropdown-toggle{
+    color: black;
+    font-weight: 600;
+}
+
+.logo-upper-nav{
+    width: 80px;
+}
+
+.logo-nav-lens{
+    width: 25px;
+}
