@@ -1,5 +1,20 @@
+/* GENERAL RULES */
 img{
     width: 100%;
+}
+
+.text_lightgrey{
+    color: rgb(119, 123, 126);
+}
+
+.text_lightblue{
+    color: rgb(29, 150, 231);
+}
+
+
+/* HEADER RULES */
+nav{
+    height: 60px;
 }
 
 nav .nav-item .nav-link.dropdown-toggle{
@@ -19,11 +34,16 @@ nav .nav-item .nav-link.dropdown-toggle{
     width: 200px;
 }
 
+
+
+/* MAIN RULES */
+
+/* EVIDENCE SECTION */
 .evidence-head{
-    height: 660px;
-    background-image: url(img/returnal-listing-thumb-01-ps5.jpg);
+    height: 640px;
+    background-image: url(img/jumbo-bg.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position-x: center;
     background-size: cover;
 }
 
@@ -41,3 +61,6 @@ nav .nav-item .nav-link.dropdown-toggle{
     border: 3px solid rgb(29, 150, 231);
     border-radius: 27px;
 }
+
+
+/* PLAYSTATION5 SECTION */
