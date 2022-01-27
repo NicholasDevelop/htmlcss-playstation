@@ -14,3 +14,30 @@ nav .nav-item .nav-link.dropdown-toggle{
 .logo-nav-lens{
     width: 25px;
 }
+
+.logo-returnal{
+    width: 200px;
+}
+
+.evidence-head{
+    height: 660px;
+    background-image: url(img/returnal-listing-thumb-01-ps5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.complete-title{
+    bottom: 60px;
+    left: 50px;
+    color: white;
+}
+
+.evidence-window img{
+    border-radius: 20px;
+}
+
+.evidence-window.active{
+    border: 3px solid rgb(29, 150, 231);
+    border-radius: 27px;
+}
