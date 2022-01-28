@@ -78,7 +78,7 @@ nav .nav-item .nav-link.dropdown-toggle{
 }
 
 
-/* PLAYSTATION5 SECTION */
+/* PLAYSTATION 5 SECTION */
 .playstation5-product{
     top: 0;
     bottom: 0;
@@ -110,6 +110,7 @@ nav .nav-item .nav-link.dropdown-toggle{
     }
 }
 
+
 /* NEW ENTRY SECTION */
 #new-entry .banner-game-head{
     min-height: 620px;
@@ -122,4 +123,11 @@ nav .nav-item .nav-link.dropdown-toggle{
 
 .new-entry-game{
     margin-bottom: 50px;
+}
+
+
+/* PLAYSTATION 4 SECTION */
+.fa-registered{
+    font-size: 17px;
+    vertical-align: 50%;
 }
