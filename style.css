@@ -47,7 +47,7 @@ nav .nav-item .nav-link.dropdown-toggle{
 }
 
 .banner-game-head{
-    min-height: 590px;
+    height: 590px;
     background-image: url(img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-position-x: center;
@@ -135,15 +135,33 @@ nav .nav-item .nav-link.dropdown-toggle{
 
 
 /* PLAYSTATION PLUS SECTION */
+#playstation-plus .logo-game{
+    width: 330px;
+}
+
 #playstation-plus .banner-game-head{
-    max-height: 200px;
-    background-color: rgb(190, 187, 187);
+    height: 400px;
+    background-color: rgb(202, 199, 199);
     background-image: url(img/ps-plus-april-monthly-games-featured-image-block.png);
+    background-size: contain;
+    background-position-x: 80%;
 }
 
 #playstation-plus .complete-banner-game{
     color: initial;
     font-weight: 500;
-    padding-left: 60px;
-    padding-bottom: 0px;
+    padding: 0 60px;
+}
+
+#playstation-plus button{
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: none;
+}
+
+
+@media screen and ( max-width:767px ){
+    #playstation-plus .banner-game-head{
+        background-image: none;
+    }
 }
