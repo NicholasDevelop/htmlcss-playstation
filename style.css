@@ -11,6 +11,12 @@ img{
     color: rgb(29, 150, 231);
 }
 
+ul, ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 
 /* HEADER RULES */
 nav{
@@ -24,14 +30,10 @@ nav .nav-item .nav-link.dropdown-toggle{
 
 .logo-upper-nav{
     width: 80px;
-}
+} 
 
 .logo-nav-lens{
     width: 25px;
-}
-
-.logo-returnal{
-    width: 200px;
 }
 
 
@@ -39,28 +41,77 @@ nav .nav-item .nav-link.dropdown-toggle{
 /* MAIN RULES */
 
 /* EVIDENCE SECTION */
-.evidence-head{
-    height: 640px;
+.logo-game{
+    width: 215px;
+}
+
+.banner-game-head{
+    min-height: 590px;
     background-image: url(img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-position-x: center;
     background-size: cover;
 }
 
-.complete-title{
+.complete-banner-game{
     bottom: 60px;
     left: 50px;
     color: white;
+}
+
+.evidence-window{
+    transition: 0.3s;
 }
 
 .evidence-window img{
     border-radius: 20px;
 }
 
-.evidence-window.active{
+.evidence-window.active, .evidence-window:hover{
     border: 3px solid rgb(29, 150, 231);
     border-radius: 27px;
 }
 
+.evidence-window:hover{
+    transform: translatey(-15px);
+    box-shadow: 0px 7px 15px 5px rgb(151, 145, 145);
+}
+
 
 /* PLAYSTATION5 SECTION */
+.playstation5-product{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.playstation5-product:hover, .active{
+    opacity: 1;
+    border-bottom: 2px solid rgb(29, 150, 231);
+}
+
+
+
+@media screen and ( max-width:767px ){
+    #playstation5 ul{
+        justify-content: left!important;
+    }
+    #playstation5 ul li h6{
+        display: none;
+    }
+    #playstation5 ul .mx-2{
+        margin: 0px 0px!important;
+    }
+    #playstation5 ul li .px-4{
+        padding: 0 5px;
+    }
+}
+
+/* NEW ENTRY SECTION */
+#new-entry .banner-game-head{
+    min-height: 620px;
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+}
