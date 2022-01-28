@@ -115,3 +115,11 @@ nav .nav-item .nav-link.dropdown-toggle{
     min-height: 620px;
     background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
 }
+
+.new-entry-game img{
+    border-radius: 25px;
+}
+
+.new-entry-game{
+    margin-bottom: 50px;
+}
