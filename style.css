@@ -43,6 +43,7 @@ nav .nav-item .nav-link.dropdown-toggle{
 /* EVIDENCE SECTION */
 .logo-game{
     width: 215px;
+    margin-bottom: 25px;
 }
 
 .banner-game-head{
@@ -54,9 +55,9 @@ nav .nav-item .nav-link.dropdown-toggle{
 }
 
 .complete-banner-game{
-    bottom: 60px;
-    left: 50px;
     color: white;
+    padding-left: 60px;
+    padding-bottom: 50px;
 }
 
 .evidence-window{
@@ -130,4 +131,19 @@ nav .nav-item .nav-link.dropdown-toggle{
 .fa-registered{
     font-size: 17px;
     vertical-align: 50%;
+}
+
+
+/* PLAYSTATION PLUS SECTION */
+#playstation-plus .banner-game-head{
+    max-height: 200px;
+    background-color: rgb(190, 187, 187);
+    background-image: url(img/ps-plus-april-monthly-games-featured-image-block.png);
+}
+
+#playstation-plus .complete-banner-game{
+    color: initial;
+    font-weight: 500;
+    padding-left: 60px;
+    padding-bottom: 0px;
 }
