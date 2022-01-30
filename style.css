@@ -233,4 +233,24 @@ nav .nav-item .nav-link.dropdown-toggle{
 
 
 /* FOLLOW US SECTION */
+.ms_width-150{
+    width: 150px;
+}
+
+
+@media screen and ( max-width:767px ){
+    #follow-us .ms_width-150{
+        width: 130px;
+    }
+}
+
+@media screen and ( max-width:576px ){
+    #follow-us .ms_width-150{
+        width: 49%;
+        margin-bottom: 50px;
+    }
+}
+
+
+/* FOOTER SECTION */
 
