@@ -187,3 +187,50 @@ nav .nav-item .nav-link.dropdown-toggle{
         margin: 0 0px!important;
     }
 }
+
+
+/* PLAYSTATION NOW SECTION */
+#playstation-now .logo-game{
+    width: 330px;
+}
+
+#playstation-now .banner-game-head{
+    height: 400px;
+    background-color: rgb(1, 1, 65);
+    background-image: url(img/ps-now-april-featured-image-block.png);
+    background-size: contain;
+    background-position-x: 95%;
+}
+
+#playstation-now .complete-banner-game{
+    font-weight: 500;
+    padding: 0 60px;
+}
+
+#playstation-now button{
+    font-weight: 500;
+    border: none;
+}
+
+
+@media screen and ( max-width:767px ){
+    #playstation-now .banner-game-head{
+        background-image: none;
+    }
+    #playstation-now .complete-banner-game{
+        padding: 0px 10px;
+    }
+}
+
+@media screen and ( max-width:991px ){
+    #playstation-now .banner-game-head{
+        height: 250px;
+    }
+    #playstation-now .logo-game{
+        width: 220px;
+    }
+}
+
+
+/* FOLLOW US SECTION */
+
