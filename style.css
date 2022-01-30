@@ -19,10 +19,6 @@ ul, ol{
 
 
 /* HEADER RULES */
-nav{
-    height: 60px;
-}
-
 nav .nav-item .nav-link.dropdown-toggle{
     color: black;
     font-weight: 600;
@@ -34,6 +30,12 @@ nav .nav-item .nav-link.dropdown-toggle{
 
 .logo-nav-lens{
     width: 25px;
+}
+
+.dropdown-toggle::after{
+    border: unset;
+    content: "\2304";
+    font-weight: bold;
 }
 
 
@@ -144,7 +146,7 @@ nav .nav-item .nav-link.dropdown-toggle{
     background-color: rgb(202, 199, 199);
     background-image: url(img/ps-plus-april-monthly-games-featured-image-block.png);
     background-size: contain;
-    background-position-x: 80%;
+    background-position-x: 85%;
 }
 
 #playstation-plus .complete-banner-game{
@@ -163,5 +165,25 @@ nav .nav-item .nav-link.dropdown-toggle{
 @media screen and ( max-width:767px ){
     #playstation-plus .banner-game-head{
         background-image: none;
+    }
+    #playstation-plus .complete-banner-game{
+        padding: 0px 10px;
+    }
+}
+
+@media screen and ( max-width:991px ){
+    #playstation-plus .banner-game-head{
+        height: 250px;
+    }
+    #playstation-plus .logo-game{
+        width: 220px;
+    }
+}
+
+
+/* SALE-GAMES SECTION */
+@media screen and ( max-width:767px ){
+    #sale-games .mx-4{
+        margin: 0 0px!important;
     }
 }
