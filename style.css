@@ -17,6 +17,11 @@ ul, ol{
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+    color: unset;
+}
+
 
 /* HEADER RULES */
 nav .nav-item .nav-link.dropdown-toggle{
@@ -88,7 +93,7 @@ nav .nav-item .nav-link.dropdown-toggle{
     left: 0;
     right: 0;
     opacity: 0.7;
-    transition: 0.3s;
+    transition: opacity 0.5s ease-in-out;
 }
 
 .playstation5-product:hover, .active{
@@ -146,13 +151,13 @@ nav .nav-item .nav-link.dropdown-toggle{
     background-color: rgb(202, 199, 199);
     background-image: url(img/ps-plus-april-monthly-games-featured-image-block.png);
     background-size: contain;
-    background-position-x: 85%;
+    background-position-x: 90%;
 }
 
 #playstation-plus .complete-banner-game{
     color: initial;
     font-weight: 500;
-    padding: 0 60px;
+    padding: 10px 60px;
 }
 
 #playstation-plus button{
@@ -167,13 +172,13 @@ nav .nav-item .nav-link.dropdown-toggle{
         background-image: none;
     }
     #playstation-plus .complete-banner-game{
-        padding: 0px 10px;
+        padding: 10px 10px;
     }
 }
 
 @media screen and ( max-width:991px ){
     #playstation-plus .banner-game-head{
-        height: 250px;
+        height: 305px;
     }
     #playstation-plus .logo-game{
         width: 220px;
@@ -204,7 +209,7 @@ nav .nav-item .nav-link.dropdown-toggle{
 
 #playstation-now .complete-banner-game{
     font-weight: 500;
-    padding: 0 60px;
+    padding: 10px 60px;
 }
 
 #playstation-now button{
@@ -218,13 +223,13 @@ nav .nav-item .nav-link.dropdown-toggle{
         background-image: none;
     }
     #playstation-now .complete-banner-game{
-        padding: 0px 10px;
+        padding: 10px 10px;
     }
 }
 
 @media screen and ( max-width:991px ){
     #playstation-now .banner-game-head{
-        height: 250px;
+        height: 305px;
     }
     #playstation-now .logo-game{
         width: 220px;
@@ -253,4 +258,33 @@ nav .nav-item .nav-link.dropdown-toggle{
 
 
 /* FOOTER SECTION */
+footer, .form-select{
+    background-color: #00439C;
+    color: white;
+    font-weight: 500;
+}
 
+.logo-footer-ps{
+    width: 90px;
+}
+
+.logo-footer-globe{
+    width: 20px;
+}
+
+.form-select{
+    border-color: #00439C;
+    width: auto;
+}
+
+footer ul li{
+    margin-bottom: 8px;
+}
+
+.logo-footer-sie{
+    width: 130px;
+}
+
+footer p{
+    font-size: 14px;
+}
