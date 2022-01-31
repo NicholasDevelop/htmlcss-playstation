@@ -288,3 +288,13 @@ footer ul li{
 footer p{
     font-size: 14px;
 }
+
+
+@media screen and ( max-width:991px ){
+    footer .country{
+        margin-bottom: 50px;
+    }
+    footer .sie{
+        margin-top: 50px;
+    }
+}
