@@ -37,6 +37,14 @@ nav .nav-item .nav-link.dropdown-toggle{
     width: 25px;
 }
 
+.dropdown{
+    position: initial;
+}
+
+.dropdown-menu{
+    width: 100%;
+}
+
 .dropdown-toggle::after{
     border: unset;
     content: "\2304";
